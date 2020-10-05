@@ -99,11 +99,10 @@ ltAppAsset::register($this);
                         <div class="mainmenu pull-left"> 
                             <ul class="nav navbar-nav collapse navbar-collapse">
                                 <li><a href="<?= \yii\helpers\Url::home()?>">Главная</a></li>
-                                <li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
+                                <li class="dropdown"><a href="#">Рестораны<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="<?= \yii\helpers\Url::to(['category/allcategories'])?>">Продукция</a></li>
-                                        <li><a href="product-details.html">Индивидукльное изготовление</a></li>
-                                        <li><a href="<?= \yii\helpers\Url::to(['site/about'])?>">Доставка и оплата</a></li>  
+                                        <li><a href="<?= \yii\helpers\Url::to(['category/allcategories'])?>">Port place</a></li>
+                                        <li><a href="<?= \yii\helpers\Url::to(['site/about'])?>">Evropeyskiy</a></li>  
                                         <li><a href="#" onclick="return getCart()">Корзина</a></li> 
                                     </ul>
                                 </li> 
@@ -113,8 +112,8 @@ ltAppAsset::register($this);
                                         <li><a href="blog-single.html">Blog Single</a></li>
                                     </ul>
                                 </li> 
-                                <li><a href="404.html">О компании</a></li>
-                                <li><a href="contact-us.html">Контакты</a></li>
+                                <li><a href="404.html">Акции</a></li>
+                                <li><a href="contact-us.html">Доставка и оплата</a></li>
                             </ul>
                         </div>
                     </div>

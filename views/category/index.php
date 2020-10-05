@@ -6,7 +6,7 @@ use yii\helpers\Url;
 
 
 ?>
-<section id="slider"><!--slider-->
+<!-- <section id="slider">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -29,7 +29,6 @@ use yii\helpers\Url;
                                 </div>
                                 <div class="col-sm-6">
                                     <img src="/images/home/quality.jpg" class="girl img-responsive" alt=""/>
-                                     <!-- <img src="/images/home/pricing.png"  class="pricing" alt="" /> -->
                                 </div>
                             </div>
                             <div class="item">
@@ -42,7 +41,6 @@ use yii\helpers\Url;
                                 </div>
                                 <div class="col-sm-6">
                                     <img src="/images/home/sizes.png" class="girl img-responsive" alt="" />
-                                    <!-- <img src="/images/home/pricing.png"  class="pricing" alt="" /> -->
                                 </div>
                             </div>
                             
@@ -71,7 +69,7 @@ use yii\helpers\Url;
                 </div>
             </div>
         </div>
-    </section><!--/slider-->
+    </section> -->
     
     <section>
         <div class="container">
@@ -128,7 +126,7 @@ $premium = 0;
                 <div class="col-sm-9 padding-right">
             <?php if(!empty($hits) ): ?>
                     <div class="features_items"><!--features_items-->
-                        <h2 class="title text-center">Популярные модели</h2>
+                        <h2 class="title text-center">Популярные товары</h2>
                     <?php foreach($hits as $hit): ?>
                         <?php $mainImg = $hit->getImage();?>
                         <div class="col-sm-4">

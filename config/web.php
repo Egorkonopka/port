@@ -3,7 +3,7 @@
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 $config = [
-    'id' => 'amm-app',
+    'id' => 'port',
     'homeUrl'=>'/',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],

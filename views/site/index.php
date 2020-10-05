@@ -2,10 +2,10 @@
 
 /* @var $this yii\web\View */
  // старая версия
-$this->title = 'AMM-Dnepr';
+$this->title = 'Port';
 ?>
 
-<section id="slider"><!--slider-->
+<section id="slider">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -68,7 +68,7 @@ $this->title = 'AMM-Dnepr';
                 </div>
             </div>
         </div>
-    </section><!--/slider-->
+    </section>
     
     <section>
         <div class="container">
