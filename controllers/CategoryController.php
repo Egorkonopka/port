@@ -7,6 +7,7 @@ use app\models\Category;
 use app\models\Product;
 use Yii;
 use yii\data\Pagination;
+use app\models\Res;
 /**
  * 
  */
@@ -14,12 +15,15 @@ class CategoryController extends AppController
 {
 	
 		 public function actionIndex(){
-
-		 		$hits = Product::find()->where(['hit'=> 1])->limit(6)->all();
+		 		$res = Res::find()->all();
 		 		$this->setMeta('Pó‎rtal');
-		 		$brand = Product::find()->all();
-		 		// debug($hits);
-		        return $this->render('index', compact('hits','brand'));
+		 		return $this->render('index', compact('res'));
+
+
+		 		// $hits = Product::find()->where(['hit'=> 1])->limit(6)->all();
+		 		// $this->setMeta('Pó‎rtal');
+		 		// $brand = Product::find()->all();
+		   //      return $this->render('index', compact('hits','brand'));
 		        
 		    }
 

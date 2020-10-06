@@ -102,7 +102,7 @@ ltAppAsset::register($this);
                                 <li class="dropdown"><a href="#">Рестораны<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="<?= \yii\helpers\Url::to(['category/allcategories'])?>">Port place</a></li>
-                                        <li><a href="<?= \yii\helpers\Url::to(['site/about'])?>">Evropeyskiy</a></li>  
+                                        <li><a href="<?= \yii\helpers\Url::to(['site/about'])?>">Evropei</a></li>  
                                         <li><a href="#" onclick="return getCart()">Корзина</a></li> 
                                     </ul>
                                 </li> 
